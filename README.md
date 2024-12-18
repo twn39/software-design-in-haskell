@@ -8,12 +8,13 @@ A structured set of materials on how to build real-world applications in Haskell
 
 * [Books on Software Design and Architecture in Haskell](#Books-on-Software-Design-and-Architecture-in-Haskell)
 * [Application Architectures](#Application-Architectures)
-* [Design Approaches and Design Patterns](#Design-Approaches-and-Design-Patterns)
+* [Architectural Approaches and Design Patterns](#Architectural-Approaches-and-Design-Patterns)
   * [Free Monads](#Free-Monads)
   * [Final Tagless / mtl](#Final-Tagless--mtl)
   * [Effect Systems](#Effect-Systems)
   * [ReaderT Pattern](#ReaderT-Pattern)
   * [Service Handle Pattern](#Service-Handle-Pattern)
+  * [Value-Level and Type-Level Design Patterns](Value--Level-and-Type--Level-Design-Patterns)
   * [Other Patterns](#Other-Patterns)
   * [OOP Design Patterns vs FP Design Patterns](#OOP-Design-Patterns-vs-FP-Design-Patterns)
   * [Comparison of Approaches](#Comparison-of-Approaches)
@@ -62,7 +63,7 @@ A structured set of materials on how to build real-world applications in Haskell
 - [Hexagonal Architecture and Free Monad: Two related design patterns?](https://www.pinterest.ru/pin/791929915696726474/#amp) | **Quentin Duval**
 - [Large-scale design in Haskell? (SO question)](https://stackoverflow.com/questions/3077866/large-scale-design-in-haskell)
 
-# Design Approaches and Design Patterns
+# Architectural Approaches and Design Patterns
 
 ### Free Monads
 
@@ -106,12 +107,25 @@ A structured set of materials on how to build real-world applications in Haskell
 - [The Service Pattern](https://www.schoolofhaskell.com/user/meiersi/the-service-pattern) | **Simon Meier**
 - [Haskell Design Patterns: The Handle Pattern](https://jaspervdj.be/posts/2018-03-08-handle-pattern.html) | **Jasper Van der Jeugt**
 
+### Value-Level and Type-Level Design Patterns
+
+- [The Has Type Class Pattern](https://hackernoon.com/the-has-type-class-pattern-ca12adab70ae) | **Jonathan Fischoff**
+- HKD
+- Type Selector
+- Granular Type Selector
+- Typed-Untyped
+- Typed Avatar
+- Control Structure
+- Impure Functor
+- Dynamic Payload
+- Static materialization, dynamic interpretation
+- MVar Request-Response
+
 ### Other Patterns
 
 - [Haskell mini-patterns handbook](https://kowainik.github.io/posts/haskell-mini-patterns) | **Kowainik** (**Dmitrii Kovanikov**, **Veronika Romashkina**)
 - [Haskell Design Patterns (Book)](https://www.oreilly.com/library/view/haskell-design-patterns/9781783988723/) | **Ryan Lemmer**
 - [Enterprise Haskell Pattern: Lensed Reader](https://michaelxavier.net/posts/2016-04-03-Enterprise-Haskell-Pattern-Lensed-Reader.html) | **Michael Xavier**
-- [The Has Type Class Pattern](https://hackernoon.com/the-has-type-class-pattern-ca12adab70ae) | **Jonathan Fischoff**
 - [Type Class Patterns and Anti-patterns](https://hackernoon.com/type-class-patterns-and-anti-patterns-efd045c5af66) | **Jonathan Fischoff**
 
 ### OOP Design Patterns vs FP Design Patterns
